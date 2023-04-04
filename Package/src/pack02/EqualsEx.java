@@ -13,5 +13,7 @@ public class EqualsEx {
 			System.out.println("a is equal to b");
 		if(a.equals(c)) //a
 			System.out.println("a is equal to c");
+		
+		// equals메소드는 Object에 있는 것이 아니고, Point클래스에 있는 것을 호출
 	}
 }
