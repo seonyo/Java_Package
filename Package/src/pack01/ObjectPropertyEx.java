@@ -10,6 +10,9 @@ public class ObjectPropertyEx {
 	}
 	public static void main(String[] args) {
 		Point p = new Point(2,3);
-		print(p);
+		//print(p);
+		System.out.println(p.toString());
+		System.out.println(p); // p는 자동으로 p.toString()으로 자동변환 되어 호출
+		System.out.println(p+ "입니다.");
 	}
 }
